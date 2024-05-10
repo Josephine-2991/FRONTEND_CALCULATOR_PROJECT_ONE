@@ -1,0 +1,72 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend_Calculator_Project</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <!-----------------------------MAIN-STARTS------------------------------------------------>
+    <main>
+    <!------------Calculator_first_STARTS----------------------------------------------------->
+        <section class="Calculator_first">
+    <!-----------------------------Calculator_second_STARTS------------------------------------>
+            <div class="Calculator_second">
+    <!-----------------------------table-STARTS------------------------------------------------>
+                <table class="table">
+                    <tr>
+                        <td colspan="4">
+                            <input type="text" id="output">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><button class="button" onclick="display('7')">7</button></td>
+                        <td><button class="button" onclick="display('8')">8</button></td>
+                        <td><button class="button" onclick="display('9')">9</button></td>
+                        <td><button class="button" onclick="display('/')">/</button></td>
+                    </tr>
+
+                    <tr>
+                        <td><button class="button" onclick="display('4')">4</button></td>
+                        <td><button class="button" onclick="display('5')">5</button></td>
+                        <td><button class="button" onclick="display('6')">6</button></td>
+                        <td><button class="button" onclick="display('*')">*</button></td>
+                    </tr>
+
+                    <tr>
+                        <td><button class="button" onclick="display('3')">3</button></td>
+                        <td><button class="button" onclick="display('2')">2</button></td>
+                        <td><button class="button" onclick="display('1')">1</button></td>
+                        <td><button class="button" onclick="display('-')">-</button></td>
+                    </tr>
+
+                    <tr>
+                        <td><button class="button" onclick="display('0')">0</button></td>
+                        <td><button class="button" onclick="display('.')">.</button></td>
+                        <td><button class="button" onclick="display('+')">+</button></td>
+                        <td><button class="button equal" onclick="solve()" id="btn">=</button></td>
+                    </tr>
+
+                </table>
+    <!-----------------------------table-ENDS-------------------------------------------------->
+
+            </div>
+    <!-----------------------------Calculator_second_STARTS------------------------------------>
+
+
+        </section>
+    <!------------------------------Calculator_first_STARTS------------------------------------>
+
+    <!-----------------------------MAIN-ENDS--------------------------------------------------->
+    </main>
+
+    <!-----------------------------JAVASCRIPT-STARTS------------------------------------------->
+    <script type="text/javascript" src="./index.js"></script>
+
+    <!-----------------------------JAVASCRIPT-STARTS------------------------------------------->
+
+</body>
+
+</html>
